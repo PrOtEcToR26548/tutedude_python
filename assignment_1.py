@@ -1,12 +1,12 @@
 # Task 1
-num1 = int(input("enter the first number:\n"))
-num2 = int(input("enter the second number:\n"))
+num1 = input("enter the first number:\n")
+num2 = input("enter the second number:\n")
 
 
-add = int(num1+num2)
-sub= int(num1-num2)
-multi = int(num1*num2)
-div = float(num1/num2)
+add = int(num1)+int(num2)
+sub= int(num1)-int(num2)
+multi = int(num1)*int(num2)
+div = int(num1)/int(num2)
 
 
 print (f'Addition of num1 and num2:{add}\n')
