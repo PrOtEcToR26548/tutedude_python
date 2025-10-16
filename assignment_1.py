@@ -16,8 +16,8 @@ print (f'Division of num1 and num2:{div}\n')
 
 # Task 2
 
-First_name = str(input("Enter your First Name:\n"))
-Last_name = str(input("Enter your Last Nmae:\n"))
+First_name = input("Enter your First Name:\n")
+Last_name = input("Enter your Last Nmae:\n")
 
 
 print(f"Hello,{First_name} {Last_name}! Welcome to the python Program")
