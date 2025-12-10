@@ -1,36 +1,17 @@
-# Task 1: Dictionary of Student Marks with user input
+#
 
-student_marks = {}
+# Task 2: Demonstrate List Slicing
 
-# How many students you want to enter?
+# Step 1: create a list of numbers from 1 to 10
+numbers = list(range(1, 11))
 
+# Step 2: extract the first five elements
+first_five = numbers[:5]
 
-while True:
-    n = input("How many students? ")
+# Step 3: reverse these extracted elements
+reversed_list = first_five[::-1]
 
-# Check if input is interger or not
-
-    if n.isdigit():
-        n = int(n)
-
-# Take name and marks as input and store in dictionary
-
-        for i in range(n):
-            name = input("Enter student name: ")
-            marks = int(input(f"Enter {name}'s marks: "))
-            student_marks[name] = marks
-
-# Ask for a name to search
-
-        search_name = input("Enter the student name to search marks: ")
-
-# Display result
-
-        if search_name in student_marks:
-            print(f"Marks of {search_name} = {student_marks[search_name]}")
-
-        else:
-            print("Student not found in record.")
-        break
-    else:
-        print("Invalide character! only integers are allowed.")
+# Step 4: print results
+print("Original list:", numbers)
+print("First five extracted:", first_five)
+print("Reversed extracted:", reversed_list)
