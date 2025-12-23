@@ -1,3 +1,0 @@
-hello world
-welcome to this program
-here we will learn python with tutedude.
